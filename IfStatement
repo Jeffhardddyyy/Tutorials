@@ -1,0 +1,43 @@
+using UnityEngine;
+
+public class IfStatement : MonoBehaviour {
+
+    //floats can hold decimals.
+    public float numberOne, numberTwo;
+
+
+	// Use this for initialization
+	void Start () {
+        //on start
+		
+
+        if(numberOne < numberTwo)
+        {//if numberTwo is greater than numberOne
+
+            //do something
+
+            //Debug.Log numberTwo
+            Debug.Log(numberTwo);
+        }
+        
+        else if( numberOne > numberTwo)
+        {//however, if numberOne is greater than numberTwo
+
+            //does something
+
+            //Debug.Log numberOne
+            print(numberOne);
+        }
+
+        else
+        {//otherwise,
+
+            //print "They are equal"
+            print("They are equal");
+        }
+
+
+
+
+	}
+}
